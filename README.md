@@ -1,1 +1,1 @@
-https://dashkkkk.github.io/posmotri-v-okno-fd/
+https://github.com/dashkkkk/posmotri-v-okno-fd
