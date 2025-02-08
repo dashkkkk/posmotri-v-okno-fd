@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ru">
   <head>
     <meta charset="UTF-8" />
@@ -19,25 +19,27 @@
         <form class="search-form">
           <fieldset class="search-form__fieldset">
             <h2 class="search-form__fieldset-title">Город</h2>
-            <label class="search-form__label">
+            <label for="search-form__textfield" class="search-form__label">
               <span class="search-form__label-text visually-hidden">Город</span>
               <input
                 type="text"
                 placeholder="Санкт Петербург, например"
                 name="city"
                 class="search-form__textfield"
+                id="search-form__textfield"
               />
             </label>
           </fieldset>
           <fieldset class="search-form__fieldset">
             <h2 class="search-form__fieldset-title">Время суток</h2>
             <div class="search-form__checkbox-list">
-              <label class="search-form__label">
+              <label class="search-form__label" for="search-form__checkbox">
                 <input
                   type="checkbox"
                   name="time"
                   value="morning"
                   class="search-form__checkbox visually-hidden"
+                  id="search-form__checkbox"
                 />
                 <span class="search-form__pseudo-checkbox"></span>
                 <span class="search-form__label-text">Утро</span>
